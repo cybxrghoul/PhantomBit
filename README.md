@@ -105,6 +105,8 @@ src/
 │   └── hybrid.rs
 ```
 
+---
+
 ## ⚠️Limitations
 Detection is probabilistic (not guaranteed)
 JPEG is not suitable for LSB encoding (use PNG)
@@ -136,5 +138,6 @@ If you found this project useful:
 
 ---
 ## 👤Author
-cybxrghoul
+**cybxrghoul**
+Cybersecurity | Detection Engineering | Steganalysis
 
