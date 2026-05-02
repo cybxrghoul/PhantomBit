@@ -1,0 +1,10 @@
+/target/
+Cargo.lock
+output/
+samples/
+*.png
+*.jpg
+*.jpeg
+*.webp
+.env
+required_updates

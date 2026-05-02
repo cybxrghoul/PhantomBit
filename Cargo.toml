@@ -1,0 +1,22 @@
+[package]
+name = "phantombit"
+version = "1.0.0"
+edition = "2021"
+authors = ["cybxrghoul"]
+description = "A Rust-based steganography, metadata analysis, and risk scoring toolkit."
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+image = "0.25"
+anyhow = "1"
+thiserror = "2"
+colored = "3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+aes-gcm = "0.10"
+argon2 = "0.5"
+rand = "0.8"
+base64 = "0.22"
+infer = "0.19"
+chrono = "0.4"
+kamadak-exif = "0.6.1"
