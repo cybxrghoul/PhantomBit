@@ -6,7 +6,7 @@ PhantomBit is a Rust-based cybersecurity tool designed for **secure data hiding*
 
 ---
 
-## 🚀 Features
+## Features
 
 ### 🔍 Forensic Metadata Engine
 - File signature detection (magic bytes)
@@ -43,7 +43,7 @@ PhantomBit is a Rust-based cybersecurity tool designed for **secure data hiding*
 
 ---
 
-## 🧩 Installation
+## Installation
 
 ```bash
 git clone https://github.com/cybxrghoul/PhantomBit.git
