@@ -1,49 +1,70 @@
 # ⬡ PhantomBit v1.0
 
-**Steganography • Forensic Metadata Analysis • Stego Detection**
+<p align="center">
+  <b>Steganography • Stego Detection • Forensic Metadata Analysis</b><br>
+  <sub>A Rust-based cybersecurity toolkit for secure data hiding and statistical steganalysis</sub>
+</p>
 
-PhantomBit is a Rust-based cybersecurity tool designed for **secure data hiding** and **forensic-level steganalysis**. It combines encryption, steganography, metadata intelligence, and statistical detection into a single CLI framework.
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Rust-1.70+-orange?style=for-the-badge&logo=rust">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
+</p>
 
 ---
 
-## Features
+## Why PhantomBit?
 
-### 🔍 Forensic Metadata Engine
-- File signature detection (magic bytes)
-- MIME type validation
-- EXIF extraction (camera, software, timestamps)
-- GPS metadata detection
-- Entropy analysis
-- Metadata anomaly detection
-- Risk scoring (Low → Critical)
+PhantomBit is not just a steganography tool.
+
+It is a **forensic-aware steganography and stego detection engine** built for:
+
+- Cybersecurity enthusiasts  
+- Digital forensics learners  
+- Detection engineering projects  
+- Research-oriented applications  
 
 ---
+
+## Core Features
 
 ### 🔐 Secure Steganography
-- LSB-based image steganography (PNG)
+- PNG LSB steganography
 - AES-256-GCM encryption
-- Argon2-based key derivation
+- Argon2 key derivation
 - Passphrase-protected payloads
 
 ---
 
-### 🧠 Hybrid Mode
-- Combines metadata analysis + encryption + steganography
-- Warns if carrier file is already suspicious
-- Produces risk-aware stego output
+### 🔍 Forensic Metadata Engine
+- File signature (magic byte) detection  
+- MIME type validation  
+- EXIF extraction (camera, software, timestamps)  
+- GPS metadata detection  
+- Entropy analysis  
+- Risk scoring (Low → Critical)  
+
+---
+
+### 🧠 Hybrid Mode (🔥 Unique Feature)
+- Combines metadata analysis + encryption + steganography  
+- Warns if carrier file is already suspicious  
+- Produces **risk-aware stego output**  
 
 ---
 
 ### 🕵️ Stego Detection Engine
-- LSB statistical analysis
-- Bit distribution & variance checks
-- Entropy-based anomaly detection
-- Chi-square attack (research-level detection)
-- Stego suspicion scoring
+- LSB statistical analysis  
+- Bit distribution & variance checks  
+- Entropy anomaly detection  
+- **Chi-square attack (research-level)**  
+- Stego suspicion scoring  
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 ```bash
 git clone https://github.com/cybxrghoul/PhantomBit.git
@@ -51,14 +72,47 @@ cd PhantomBit
 cargo build
 ```
 ---
-## Limitations
+
+## 🧠 Detection Techniques
+
+PhantomBit uses multiple detection strategies:
+
+- Entropy-based anomaly detection
+- LSB bit distribution analysis
+- Variance-based statistical modeling
+- Chi-square attack for LSB embedding detection
+
+---
+
+## 🛡️ Security Design
+- AES-256-GCM (Authenticated Encryption)
+- Argon2 password hashing
+- Nonce-based encryption
+- Payload integrity validation
+
+---
+
+## Project Structure
+```
+src/
+├── cli.rs
+├── crypto.rs
+├── metadata.rs
+├── risk.rs
+├── detection.rs
+├── stego/
+│   ├── lsb.rs
+│   └── hybrid.rs
+```
+
+## ⚠️Limitations
 Detection is probabilistic (not guaranteed)
 JPEG is not suitable for LSB encoding (use PNG)
 Small payloads are harder to detect
 
 ---
 
-## Future Work
+## 🚀 Future Work
 RS analysis (advanced steganalysis)
 Machine learning-based detection
 Tauri GUI interface
@@ -67,6 +121,20 @@ Multi-format support (audio/video)
 
 ---
 
-## Author
+## 📜License
+MIT License
+
+---
+
+## ⭐ Support
+
+If you found this project useful:
+
+👉 Star ⭐ the repo
+👉 Share it with cybersecurity peers
+👉 Use it in your projects
+
+---
+## 👤Author
 cybxrghoul
-Cybersecurity Enthusiast | Detection Engineering | Steganalysis
+
