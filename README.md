@@ -49,11 +49,19 @@ PhantomBit is a Rust-based cybersecurity tool designed for **secure data hiding*
 git clone https://github.com/cybxrghoul/PhantomBit.git
 cd PhantomBit
 cargo build
+```
 
 ## Limitations
 Detection is probabilistic (not guaranteed)
 JPEG is not suitable for LSB encoding (use PNG)
 Small payloads are harder to detect
+
+## 🚀 Future Work
+RS analysis (advanced steganalysis)
+Machine learning-based detection
+Tauri GUI interface
+Stego heatmap visualization
+Multi-format support (audio/video)
 
 ##👤 Author
 cybxrghoul
